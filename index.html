@@ -34,12 +34,12 @@
           <div>
             <ul>
               <li
-                v-for="todo in toDoList"
+                v-for="(todo,index) in toDoList"
                 class="d-flex justify-content-between"
                 :class="(todo.done == true) ? 'list done' : 'list'  "
               >
                 {{todo.task}}
-                <div class="pointer" @click="deleteTodo()">
+                <div class="pointer" @click="deleteTodo(index)">
                   <i class="fa-solid fa-xmark fa-2xl"></i>
                 </div>
               </li>

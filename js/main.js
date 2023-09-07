@@ -25,8 +25,8 @@ createApp({
     };
   },
   methods: {
-    deleteTodo() {
-      console.log("deleted!");
+    deleteTodo(index) {
+      this.toDoList.splice(index, 1);
     },
   },
 }).mount("#app");
