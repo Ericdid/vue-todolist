@@ -4,13 +4,18 @@
   box-sizing: border-box;
 }
 
-.done {
+.list {
   background-color: lightgreen;
+  border: 1px solid black;
+  margin-top: 2px;
 }
 
 .pointer {
   cursor: pointer;
 }
-.true {
+.done {
   text-decoration: line-through;
+}
+.new-task {
+  width: 150px;
 }
