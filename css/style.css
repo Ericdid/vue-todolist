@@ -23,3 +23,6 @@ ul {
 .new-task {
   width: 100%;
 }
+button {
+  background-color: lightgray;
+}
