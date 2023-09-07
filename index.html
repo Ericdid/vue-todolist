@@ -47,19 +47,13 @@
           </div>
         </div>
         <div class="row">
-          <button
-            class="col-2"
-            id="new-task"
-            @keyup.enter="add()"
-            @click="add()"
-          >
-            aggiungi
-          </button>
+          <button class="col-2" id="new-task" @click="add()">aggiungi</button>
           <input
             type="text"
             class="col-10"
             placeholder="inserisci nuova task"
             v-model="newTask.task"
+            @keyup.enter="add()"
           />
         </div>
       </section>
