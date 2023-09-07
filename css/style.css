@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-.green {
+.done {
   background-color: lightgreen;
 }
-.red {
-  background-color: lightcoral;
+
+.pointer {
+  cursor: pointer;
 }
