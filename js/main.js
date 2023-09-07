@@ -33,7 +33,9 @@ createApp({
       this.toDoList.splice(index, 1);
     },
     add() {
-      console.log(this.newTask);
+      // this.toDoList.push(this.newTask);
+      if (this.newTask.task.length > 0) return this.toDoList.push(this.newTask);
+      else return "";
     },
   },
 }).mount("#app");
