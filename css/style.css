@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul {
+  padding-left: 0;
+}
 
 .list {
   background-color: lightgreen;
@@ -17,5 +20,5 @@
   text-decoration: line-through;
 }
 .new-task {
-  width: 150px;
+  width: 100%;
 }
