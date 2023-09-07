@@ -1,4 +1,5 @@
-console.log("ok");
+// <!-- <div>prova1</div>
+// <div class="pointer"><i class="fa-solid fa-x fa-2xl"></i></div>
 
 const { createApp } = Vue;
 
@@ -10,7 +11,7 @@ createApp({
       toDoList: [
         {
           task: "task 1",
-          done: false,
+          done: true,
         },
         {
           task: "task 2",

@@ -33,9 +33,11 @@
         <div class="row justify-content-center">
           <div>
             <ul>
-              <li class="list d-flex justify-content-between p-3">
-                <div>prova1</div>
-                <div class="pointer"><i class="fa-solid fa-x fa-2xl"></i></div>
+              <li
+                v-for="todo in toDoList"
+                :class="(todo.done == true) ? 'list done' : 'list'  "
+              >
+                {{todo.task}}
               </li>
             </ul>
           </div>
