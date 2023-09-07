@@ -34,7 +34,12 @@ createApp({
     },
     add() {
       // this.toDoList.push(this.newTask);
-      if (this.newTask.task.length > 0) return this.toDoList.push(this.newTask);
+      const newTask = {
+        task: this.newTask.task,
+        done: false,
+      };
+      // this.toDoList.push(newTask);
+      if (newTask.task.length > 0) return this.toDoList.push(newTask);
       else return "";
     },
   },
