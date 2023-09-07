@@ -11,3 +11,6 @@
 .pointer {
   cursor: pointer;
 }
+.true {
+  text-decoration: line-through;
+}
