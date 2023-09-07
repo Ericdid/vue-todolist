@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.green {
+  background-color: lightgreen;
+}
+.red {
+  background-color: lightcoral;
+}
