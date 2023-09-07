@@ -22,6 +22,10 @@ createApp({
           done: false,
         },
       ],
+      newTask: {
+        task: "",
+        done: false,
+      },
     };
   },
   methods: {
@@ -29,7 +33,7 @@ createApp({
       this.toDoList.splice(index, 1);
     },
     add() {
-      console.log("done");
+      console.log(this.newTask);
     },
   },
 }).mount("#app");
