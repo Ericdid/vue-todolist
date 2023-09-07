@@ -24,4 +24,9 @@ createApp({
       ],
     };
   },
+  methods: {
+    deleteTodo() {
+      console.log("deleted!");
+    },
+  },
 }).mount("#app");

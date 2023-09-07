@@ -35,9 +35,13 @@
             <ul>
               <li
                 v-for="todo in toDoList"
+                class="d-flex justify-content-between"
                 :class="(todo.done == true) ? 'list done' : 'list'  "
               >
                 {{todo.task}}
+                <div class="pointer" @click="deleteTodo()">
+                  <i class="fa-solid fa-xmark fa-2xl"></i>
+                </div>
               </li>
             </ul>
           </div>
